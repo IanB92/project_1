@@ -31,6 +31,8 @@ import { UpdateMyInfoComponent } from './employee/my-info/update-my-info/update-
 
 
 import { ReimbursementsComponent } from './manager/reimbursements/reimbursements.component';
+import { ListReimbursementsComponent } from './manager/list-reimbursements/list-reimbursements.component';
+import { ReimbursementsHttpComponent } from './manager/reimbursements-http/reimbursements-http.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -45,7 +47,9 @@ import { ReimbursementsComponent } from './manager/reimbursements/reimbursements
     ViewResolvedReimbursementsComponent,
     UpdateMyInfoComponent,
 
-    ReimbursementsComponent
+    ReimbursementsComponent,
+     ListReimbursementsComponent,
+     ReimbursementsHttpComponent
   ],
   imports: [
     BrowserModule,
